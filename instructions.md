@@ -45,7 +45,7 @@ bash setuppy.sh
 #### Install My Beloved asd
 
 ```bash
-bash getasd.sh
+sudo python3.7 getasd.py
 ```
 
 #### Setup Some Fun Stuff
