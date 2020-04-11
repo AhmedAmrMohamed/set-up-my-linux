@@ -16,12 +16,12 @@ python3-setuptools \
 wget
 
 # Prepare to build
-mkdir /tmp/Python37
-cd /tmp/Python37
+mkdir /tmp/Python38
+cd /tmp/Python38
 
 # Pull down Python 3.7, build, and install
-wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
-tar xvf Python-3.7.0.tar.xz
-cd /tmp/Python37/Python-3.7.0
+wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tar.xz
+tar xvf Python-3.8.0.tar.xz
+cd /tmp/Python38/Python-3.8.0
 ./configure
 sudo make altinstall

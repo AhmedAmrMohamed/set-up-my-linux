@@ -36,7 +36,7 @@ Open vim and type
 alsactl restore
 ```
 
-#### Install python 3.7 and pip3.7
+#### Install python 3.8 and pip3.8
 
 ```bash
 bash setuppy.sh
