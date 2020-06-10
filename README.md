@@ -5,10 +5,10 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-#### Install git
+#### Install and configure git 
 
 ```bash
-sudo apt-get install git
+bash getgit.sh
 ```
 
 
