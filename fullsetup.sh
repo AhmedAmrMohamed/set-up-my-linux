@@ -15,7 +15,9 @@ flex \
 libxml2-dev \
 libvncserver-dev \
 cmake \
-trash-cli
+trash-cli \
+mpv	\
+scons
 
 
 
