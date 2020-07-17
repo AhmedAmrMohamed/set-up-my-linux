@@ -14,7 +14,8 @@ ssh \
 flex \
 libxml2-dev \
 libvncserver-dev \
-cmake
+cmake \
+trash-cli
 
 
 
@@ -45,8 +46,9 @@ sudo python3 ~/Documents/dev/asd/setup.py develop
 
 echo "alias py=\"python3\"" >> ~/.bashrc
 echo "alias pip=\"pip3\"" >> ~/.bashrc
+echo "alias rm=\"trash\"" >> ~/.bashrc
 
-## not installing libzmq, causes hmserver error 
+## install libzmq,to avoid hmserver error 
 git clone https://github.com/zeromq/libzmq
 cd libzmq
 mkdir cmake-build && cd cmake-build
