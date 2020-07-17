@@ -1,5 +1,6 @@
-#### Run Updates
+### Downdload and run fullsetup.sh (not fully tested yet)
 
+#### Run Updates
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
