@@ -2,11 +2,10 @@ sudo apt update
 sudo apt upgrade
 
 
-sudo apt intsall -y git \
+sudo apt install -y git \
 vim-gtk \
 mariadb-server \
 mariadb-client \
-ruby \
 sqlite3 \
 xmlrpc-core-c3-dev \
 libxmlrpc-c++8-dev \
@@ -17,7 +16,6 @@ libvncserver-dev \
 cmake \
 trash-cli \
 mpv	\
-scons
 
 
 
